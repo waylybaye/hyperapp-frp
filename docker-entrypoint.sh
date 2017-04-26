@@ -1,4 +1,6 @@
-CONF=/etc/frps.ini
+#!/bin/sh
+
+CONF=/etc/frp/frps.ini
 if ! [ -f $CONF ]; then
   echo "Create frps.ini"
   echo > $CONF
